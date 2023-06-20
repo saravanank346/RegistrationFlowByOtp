@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .nav-item.active {
+    font-weight: bold;
+  }
+  
