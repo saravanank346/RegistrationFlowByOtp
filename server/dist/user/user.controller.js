@@ -107,8 +107,6 @@ let UserController = exports.UserController = class UserController {
                     else {
                         const date_now = new Date();
                         console.log("date", date_now);
-                        const getMinutes = date_now.getMinutes();
-                        console.log("min", getMinutes);
                         console.log("ids", user.id);
                         console.log("loginAttempt", user.loginAttempts);
                         const AttemptCount = user.loginAttempts;
